@@ -4,7 +4,7 @@ m = 2, n = 3 -> A(m,n) = 9
 m = 3, n = 2 -> A(m,n) = 29
 */
 
-void Task67()
+void Task68()
 {
     Console.Write("Введите число M: ");
     int m = Convert.ToInt32(Console.ReadLine());
@@ -14,7 +14,7 @@ void Task67()
 
     Console.WriteLine($"Значение функции Аккермана для чисел М={m} и N={n} равно {Akkerman(m, n)}");
 }
-Task67();
+Task68();
 
 int Akkerman(int m, int n)
 {
